@@ -1,7 +1,7 @@
 const slides = document.querySelectorAll('.slide');
 const dots = document.querySelectorAll('.dot');
-const nextBtn = document.querySelector('.next-btn');
-const prevBtn = document.querySelector('.prev-btn');
+const nextBtn = document.querySelector('.next-btnn');
+const prevBtn = document.querySelector('.prev-btnn');
 
 let currentIndex = 0;
 
@@ -32,14 +32,3 @@ dots.forEach((dot, i) => {
 
 
 
-const slider = document.querySelector('.slider');
-const prevBt = document.querySelector('.prev-btn');
-const nextBt = document.querySelector('.next-btn');
-
-nextBtn.addEventListener('click', () => {
-  slider.scrollBy({ left: 320, behavior: 'smooth' });
-});
-
-prevBtn.addEventListener('click', () => {
-  slider.scrollBy({ left: -320, behavior: 'smooth' });
-});

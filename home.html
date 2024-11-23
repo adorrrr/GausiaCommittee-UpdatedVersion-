@@ -8,7 +8,7 @@
     <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
     rel="stylesheet"/>
     <link rel="icon" href="./assets/logo - Copy.png">
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
 </head>
 <body>
     <div id="main">
@@ -82,50 +82,65 @@
             <img src="./assets/AboutPhoto.png" alt="">
         </div>
 
-        <div id="swiper-container">
-            <div id="swiper">
-                <div id="swiper-wrappr">
-                    <div id="swiper-slide">
-                        <div id="slide-content">
-                            <img src="" alt="">
-                        </div>
-                    </div>
-                    <div id="swiper-slide">
-                        <div id="slide-content">
-                            <img src="" alt="">
-                        </div>
-                    </div>
-                    <div id="swiper-slide">
-                        <div id="slide-content">
-                            <img src="" alt="">
-                        </div>
-                    </div>
-                    <div id="swiper-slide">
-                        <div id="slide-content">
-                            <img src="" alt="">
-                        </div>
-                    </div>
-                    <div id="swiper-slide">
-                        <div id="slide-content">
-                            <img src="" alt="">
-                        </div>
-                    </div>
-                    <div id="swiper-slide">
-                        <div id="slide-content">
-                            <img src="" alt="">
-                        </div>
-                    </div>
+        <div class="card-section">
+            <h2 style="text-align: center; margin-top: 20px; font-size: 36px;">Find The Popular Cause <br>And Donate Them</h2>
+            <div class="card-grid">
+              <!-- Card 1 -->
+              <div class="card">
+                <img src="https://via.placeholder.com/300x240" alt="Cause Image">
+                <div class="card-content">
+                  <h3>Medical</h3>
+                  <p>Donate For Poor People's Treatment And Medicine.</p>
+                  <button>Donate Now</button>
                 </div>
-            </div>
-            <div id="swiper-buuton-prev">
-                <i class="bx bx-left-arrow-alt"></i>
-            </div>
-            <div id="swiper-buuton-next">
-                <i class="bx bx-right-arrow-alt"></i>
+              </div>
+              <!-- Card 2 -->
+              <div class="card">
+                <img src="https://via.placeholder.com/300x240" alt="Cause Image">
+                <div class="card-content">
+                  <h3>Homeless</h3>
+                  <p>Children We Work With Need Shelter.</p>
+                  <button>Donate Now</button>
+                </div>
+              </div>
+              <!-- Card 3 -->
+              <div class="card">
+                <img src="https://via.placeholder.com/300x240" alt="Cause Image">
+                <div class="card-content">
+                  <h3>Education</h3>
+                  <p>Help Underprivileged Kids Get an Education.</p>
+                  <button>Donate Now</button>
+                </div>
+              </div>
+              <!-- Card 4 -->
+              <div class="card">
+                <img src="https://via.placeholder.com/300x240" alt="Cause Image">
+                <div class="card-content">
+                  <h3>Food</h3>
+                  <p>Provide Food for Those in Need.</p>
+                  <button>Donate Now</button>
+                </div>
+              </div>
+              <!-- Card 5 -->
+              <div class="card">
+                <img src="https://via.placeholder.com/300x240" alt="Cause Image">
+                <div class="card-content">
+                  <h3>Water</h3>
+                  <p>Support Clean Water Projects Worldwide.</p>
+                  <button>Donate Now</button>
+                </div>
+              </div>
+              <!-- Card 6 -->
+              <div class="card">
+                <img src="https://via.placeholder.com/300x240" alt="Cause Image">
+                <div class="card-content">
+                  <h3>Environment</h3>
+                  <p>Protect Our Planet for Future Generations.</p>
+                  <button>Donate Now</button>
+                </div>
+              </div>
             </div>
         </div>
-        
-        
 
         <div class="testimonials-section">
             <div class="header">
@@ -134,32 +149,31 @@
             </div>
         
             <div class="slider-container">
-                <button class="slider-btn prev-btn">&#8249;</button>
+                <button class="slider-btn prev-btnn">&#8249;</button>
                 <div class="slider">
                     <div class="slide active">
-                        <img src="avatar.png" alt="User 1" class="avatar">
-                        <h3>Cameron Williamson</h3>
+                        <img src="./assets/Ador.jpg" alt="User 1" class="avatar">
+                        <h3>Ahasanul Monir Adar</h3>
                         <p>Founder</p>
                         <p class="feedback">"Sea Chub Demoiselle Whalefish Zebra Lionfish Mud Cat Pelican Eel."</p>
                     </div>
                 
                     <div class="slide">
-                        <img src="avatar.png" alt="User 2" class="avatar">
-                        <h3>Jane Cooper</h3>
+                        <img src="./assets/fahim.jpg" alt="User 2" class="avatar">
+                        <h3>Fahim Ahamed</h3>
                         <p>Designer</p>
                         <p class="feedback">"Minnow Snoek Icefish Velvet-Belly Shark. California Halibut."</p>
                     </div>
                 
                     <div class="slide">
-                        <img src="avatar.png" alt="User 3" class="avatar">
-                        <h3>Robert Fox</h3>
+                        <img src="./assets/nashib.jpg" alt="User 3" class="avatar">
+                        <h3>Nasib Pagol</h3>
                         <p>CEO</p>
                         <p class="feedback">"Southern Grayling Trout Perch Sharksucker Sea Toad Rocket."</p>
                     </div>
                 </div>
-                <button class="slider-btn next-btn">&#8250;</button>
+                <button class="slider-btn next-btnn">&#8250;</button>
             </div>
-        
             <div class="dots">
                 <span class="dot active"></span>
                 <span class="dot"></span>
@@ -169,7 +183,7 @@
 
         <div id="details-section">
             <div id="dts-part1">
-                <h5>Our Fun Facts<sup>______</sup></h5>
+                <h3>Our Fun Facts</h3>
                 <h1>We Believe that We can Save <br>More Lifes with you</h1>
             </div>
             <div id="dts-part2">
@@ -198,12 +212,12 @@
 
         <div id="news-section">
             <div id="news-part1">
-                <h5>Our Fun Facts<sup>______</sup></h5>
-                <h1>We Believe that We can Save <br>More Lifes with you</h1>
+                <h3>Latest News</h3>
+                <h1>Articel You May Read</h1>
             </div>
             <div id="news-part2">
                 <div id="news1">
-                    <img src="" alt="">
+                    <img src="https://via.placeholder.com/300x240" alt="">
                     <h3>Charity, Expectations vs. Reality</h3>
                     <p>Lorem ipsum dolor sit amet, consetetur sadipscing
                         sed diam nonumy  tempor invidunt ut labore et
@@ -211,6 +225,7 @@
                     <button><a href="#">Read more</a></button>
                 </div>
                 <div id="news1">
+                    <img src="https://via.placeholder.com/300x240" alt="">
                     <h3>Charity, Expectations vs. Reality</h3>
                     <p>Lorem ipsum dolor sit amet, consetetur sadipscing
                         sed diam nonumy  tempor invidunt ut labore et
@@ -218,13 +233,7 @@
                     <button><a href="#">Read more</a></button>
                 </div>
                 <div id="news1">
-                    <h3>Charity, Expectations vs. Reality</h3>
-                    <p>Lorem ipsum dolor sit amet, consetetur sadipscing
-                        sed diam nonumy  tempor invidunt ut labore et
-                        magna aliquyam erat, sed diam voluptua</p>
-                    <button><a href="#">Read more</a></button>
-                </div>
-                <div id="news1">
+                    <img src="https://via.placeholder.com/300x240" alt="">
                     <h3>Charity, Expectations vs. Reality</h3>
                     <p>Lorem ipsum dolor sit amet, consetetur sadipscing
                         sed diam nonumy  tempor invidunt ut labore et
