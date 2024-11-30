@@ -99,7 +99,7 @@ padding: 28px 0;
 }
 
 #navber button:hover {
-  transition-duration: 0.9s;
+  transition-duration: 1.5s;
   color: rgb(255, 255, 255); 
   background-color: #306853; 
   box-shadow: 2px 4px 5px 3px rgba(0,0,0,0.2);
@@ -501,21 +501,15 @@ padding: 28px 0;
 
 /* Details Section */
 #details-section{
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 100px 0;
-  background-color: #f9f9f9;
+  max-width: 1050px;
+  margin: 50px auto;
+  padding: 0 20px;
 }
 
-#dts-part1{
-  margin-left: -500px;
-}
 #dts-part2{
   display: flex;
   padding: 10px 0;
-  margin-left: -80px;
+
 }
 
 #dts-part1 h3 {

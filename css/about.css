@@ -1,0 +1,190 @@
+#navber-section{
+    width: auto;
+    height: 400px;
+    background-image: url(/assets/Volunteer.png);
+    background-size: cover;
+    background-image: relative;
+    position: relative;
+  }
+
+  #header{
+    width: 100%;
+    text-align: center;
+    justify-items: center;
+    margin-top: 80px;
+    color: white;
+  }
+  
+
+
+  /* Our Features */
+  .features-section {
+      max-width: 1050px;
+      margin: 50px auto;
+      padding: 0 20px;
+  }
+  
+  .features-section h2 {
+    text-transform: uppercase;
+    font-size: 16px;
+    color: #009688;
+    margin-bottom: 10px;
+    margin-left: 40px;
+  }
+  
+  .features-section h2::after {
+    content: '';
+    display: block;
+    width: 50px;
+    height: 3px;
+    background-color: #009688;
+    margin-top: 5px;
+  }
+  
+  .features-section h1 {
+    margin-left: 40px;
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+    color: #000;
+  }
+  
+  .features-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .feature-card {
+    background-color: #deeeeb;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 300px;
+    text-align: left;
+  }
+  
+  .feature-card:hover{
+    transition-duration: 0.9s;
+    cursor: pointer; 
+    background-color: #219D80;
+    h3, p, li{
+        color: white;
+    }
+  }
+
+  .feature-card .icon {
+    width: 80px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    margin-bottom: 20px;
+  }
+  
+  .feature-card .icon.green {
+    background-color: #ffffff;
+    color: #219D80;
+  }
+  
+  .feature-card .icon.light-green {
+    background-color: #ffffff;
+    color: #219D80;
+  }
+  
+  .feature-card h3 {
+    font-size: 1.25rem;
+    margin-bottom: 10px;
+    color: #000;
+  }
+  
+  .feature-card p {
+    font-size: 0.8rem;
+    color: #555;
+    margin-bottom: 14px;
+  }
+  
+  .feature-card ul {
+    list-style-type: none;
+    font-size: 0.8rem;
+    color: #555;
+  }
+  
+  .feature-card ul li {
+    margin-bottom: 8px;
+  }
+  
+ .feature-card i{
+    font-size: 60px;
+     color: #009688;
+  }
+
+
+
+
+
+  
+  /* Details */
+  #dts-part{
+    padding: 10px 0;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 100px 0;
+  }
+
+  #details1{
+    border: none;
+    border-radius: 10px;
+    background-color: #d6eee9;
+    padding: 10px;
+    text-align: center;
+    height: 230px;
+    width: 200px;
+    margin: 20px;
+  }
+
+
+
+  /* Gallery */
+  .container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 40px;
+
+  }
+  
+  .gallery-heading {
+    text-align: left;
+    margin-bottom: 20px;
+  }
+  
+  .gallery-heading h1 {
+    font-size: 2rem;
+    color: #333;
+  }
+  
+  .gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+  }
+  
+  .gallery-item {
+    background-color: #e0e0e0;
+    border-radius: 8px;
+    height: 200px; /* Placeholder height */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #555;
+    font-size: 1rem;
+  }
+  .container h1 {
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+    color: #000;
+  }
