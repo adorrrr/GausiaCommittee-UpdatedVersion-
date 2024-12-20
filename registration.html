@@ -29,11 +29,8 @@
                         <li><a href="contactus.html">Contact</a></li>
                     </ul>
                 </div>
-                <!-- <a href="javascript:void(0);" class="icon" onclick="toggleMenu()">
-                    <i class="ri-menu-4-line"></i>
-                </a> -->
             </div>
-            <button><a href="/login.html">Login</a></button>
+            <button class="login"><a href="login.html">Login</a></button>
         </div>
         <div id="header">
             <h1>Volunteer Registration</h1>
@@ -83,7 +80,7 @@
           </form>
         </div>
         <div class="notification" id="notification">
-          <span class="notification-text">Your changes have been saved!</span>
+          <span class="notification-text">Your registration is successful!</span>
         </div>
       </section>
 
@@ -103,25 +100,6 @@
     </div>
 
 
-    <script>
-        document.addEventListener('DOMContentLoaded', () => {
-          const form = document.getElementById('registration-form');
-          const notification = document.getElementById('notification');
-
-          form.addEventListener('submit', (e) => {
-            e.preventDefault(); // Prevent form submission
-            showNotification();
-          });
-      
-          function showNotification() {
-            notification.classList.add('show');
-        
-            // Automatically hide the notification after 3 seconds
-            setTimeout(() => {
-              notification.classList.remove('show');
-            }, 3000);
-          }
-        });
-    </script>
+    <script src="js/registration.js"></script>
 </body>
 </html>
