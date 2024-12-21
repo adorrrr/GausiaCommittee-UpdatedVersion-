@@ -103,3 +103,14 @@
       #sponsor {
         margin-top: 30px;
       }
+
+
+      
+#navber-section{
+  width: auto;
+  height: 400px;
+  background-image: url('../assets/ee.jpg');
+  background-size: cover;
+  background-image: relative;
+  position: relative;
+}

@@ -2,13 +2,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
 
 #navber-section{
-    width: auto;
-    height: 400px;
-    background-image: url(/assets/ee.jpg);
-    background-size: cover;
-    background-image: relative;
-    position: relative;
-  }
+  width: auto;
+  height: 400px;
+  background-image: url('../assets/ee.jpg');
+  background-size: cover;
+  background-image: relative;
+  position: relative;
+}
+
 
   #header{
     width: 100%;

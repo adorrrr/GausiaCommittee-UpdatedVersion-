@@ -1,41 +1,149 @@
+  /* Custom Modal Styles (Optional) */
+.modal-content {
+  background-color: #f9f9f9; /* Custom background */
+  border-radius: 10px;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.modal-header {
+  background-color: #219D80;
+  color: white;
+}
+
+.modal-footer {
+  background-color: #f1f1f1;
+}
+
+.modal-footer .btn {
+  border-radius: 10px;
+}
+
+/* Custom form input styling (if needed) */
+.form-control {
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  box-shadow: none;
+}
+
+/* Modal button styles */
+.modal-footer .btn-primary {
+  background-color: #219D80;
+  border: none;
+}
+
+.modal-footer .btn-secondary {
+  background-color: #312e2e;
+  border: none;
+}
+
+
+
+
+
+
+
+
+
+
+#logo-name {
+  display: flex;
+  text-align: center;
+  font-size: 10px;
+  font-weight: 500;
+  color: white;
+}
+
+#logo-name h2{
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: -1px;
+}
+
+#logo-name h3{
+  display: flex;
+  align-items: center;
+  font-size: 12px;
+  font-weight: 600;
+  color: white;
+  margin-bottom: -10px;
+}
+
+
+
+
+
+
 #navber-section{
-    width: auto;
-    height: 400px;
-    background-image: url(/assets/ee.jpg);
-    background-size: cover;
-    background-image: relative;
-    position: relative;
-  }
+  width: auto;
+  height: 400px;
+  background-image: url(/assets/ee.jpg);
+  background-size: cover;
+  background-image: relative;
+  position: relative;
+}
 
-  
-  #header{
-    width: 100%;
-    text-align: center;
-    justify-items: center;
-    margin-top: 80px;
-    color: white;
-  }
-  
 
-  #donation-section{
-    max-width: 1050px;
-    margin: 50px auto;
-    padding: 0 20px;
-    margin-bottom: 80px;
-  }
+#header{
+  width: 100%;
+  text-align: center;
+  justify-items: center;
+  margin-top: 80px;
+  color: white;
+}
 
-  #donation h4{
-    text-transform: uppercase;
-    font-size: 14px;
-    color: #009688;
-    margin-bottom: 10px;
-  }
-  
+
+#donation-section{
+  max-width: 1050px;
+  margin: 50px auto;
+  padding: 0 20px;
+  margin-bottom: 80px;
+}
+
+#donation h4{
+  text-transform: uppercase;
+  font-size: 13px;
+  color: #009688;
+  margin-bottom: 10px;
+}
+
 #donation h4::after {
-    content: '';
-    display: block;
-    width: 50px;
-    height: 3px;
-    background-color: #009688;
-    margin-top: 5px;
-  }
+  content: '';
+  display: block;
+  width: 50px;
+  height: 3px;
+  background-color: #009688;
+  margin-top: 5px;
+}
+
+
+
+
+#card p{
+  font-size: small;
+}
+
+
+
+
+
+
+
+
+#navber-section{
+  width: auto;
+  height: 400px;
+  background-image: url('../assets/ee.jpg');
+  background-size: cover;
+  background-image: relative;
+  position: relative;
+}
+
+
+
+
+
+
+
+
+
+
