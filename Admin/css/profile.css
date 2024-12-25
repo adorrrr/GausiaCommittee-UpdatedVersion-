@@ -1,0 +1,101 @@
+
+.admin-profile-container {
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 20px;
+    background: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+}
+
+.profile-card {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.profile-avatar img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+    /* border: 2px solid #0048bd; */
+}
+
+.profile-card h2 {
+    font-size: 24px;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.admin-email,
+.admin-role {
+    font-size: 14px;
+    color: #666;
+    margin: 5px 0;
+}
+
+.edit-profile-btn {
+    margin-top: 15px;
+    padding: 10px 20px;
+    background: linear-gradient(30deg, #0048bd, #44a7fd);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.edit-profile-btn:hover {
+    background: #003e9f;
+}
+
+.dashboard-actions {
+    margin-top: 30px;
+}
+
+.dashboard-actions h3 {
+    font-size: 18px;
+    margin-bottom: 15px;
+    color: #0048bd;
+}
+
+.actions-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.action-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: #ffffff;
+    padding: 20px;
+    width: calc(50% - 10px);
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-decoration: none;
+    color: #333;
+    text-align: center;
+    transition: transform 0.3s ease, background 0.3s ease;
+}
+
+.action-card i {
+    font-size: 24px;
+    color: #0048bd;
+    margin-bottom: 10px;
+}
+
+.action-card:hover {
+    transform: scale(1.05);
+    background: #f1f8ff;
+}
+
+.action-card p {
+    font-size: 14px;
+    margin-top: 5px;
+    color: #555;
+}

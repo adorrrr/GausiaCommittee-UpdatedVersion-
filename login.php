@@ -159,7 +159,7 @@ if (isset($_POST['login'])) {
 
 
     if ($email === "ador@gmail.com" && $password === "adorr") {
-        header('location: adminDashboard.php'); 
+        header('location: ./Admin/dashboard.html'); 
         exit();
     }
 

@@ -3,29 +3,34 @@
     padding: 0;
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
+    cursor: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciICB2aWV3Qm94PSIwIDAgMTYgMTYiIHdpZHRoPSIxNnB4IiBoZWlnaHQ9IjE2cHgiPjxwYXRoIGQ9Ik0gNS42NTYyNSAyLjA5Mzc1IEMgNS41NTA3ODEgMi4wNzAzMTMgNS40Mzc1IDIuMDgyMDMxIDUuMzQzNzUgMi4xMTcxODggQyA1LjE2MDE1NiAyLjE5NTMxMyA1IDIuNDAyMzQ0IDUgMi42MzI4MTMgTCA1IDEzLjQyMTg3NSBMIDcuNzg5MDYzIDExLjYxMzI4MSBMIDkuMTAxNTYzIDE0LjE3MTg3NSBMIDExLjU0Njg3NSAxMi45MjE4NzUgTCAxMC4zMzk4NDQgMTAuNTc4MTI1IEwgMTMuNDcyNjU2IDkuNzY1NjI1IEwgMTIuODU1NDY5IDkuMTQ4NDM4IEwgNS45NDUzMTMgMi4yNDIxODggQyA1Ljg2NzE4OCAyLjE2MDE1NiA1Ljc2MTcxOSAyLjExMzI4MSA1LjY1NjI1IDIuMDkzNzUgWiBNIDYgMy43MDcwMzEgTCAxMS41MjczNDQgOS4yMzQzNzUgTCA4Ljg3ODkwNiA5LjkyMTg3NSBMIDEwLjE5OTIxOSAxMi40ODQzNzUgTCA5LjUzOTA2MyAxMi44MjgxMjUgTCA4LjE3MTg3NSAxMC4xNzE4NzUgTCA2IDExLjU3ODEyNSBaIi8+PC9zdmc+"), auto;
+
   }
+  
+
   
   html, body{
     height: 100%;
     width: 100%;
     scroll-behavior: smooth;
-    background-color: #cecaca;
-  
+    background-color: #f1f1f1;
   }
-  
+
   #main{
     height: 100%;
     width: 100%;
   }
 
 
+
 aside {
+    flex: 0 0 250px; 
     color: #fff;
     width: 250px;
     padding-left: 20px;
     height: 100vh;
     background-image: linear-gradient(30deg , #0048bd, #44a7fd);
-    border-top-right-radius: 80px;
+    border-top-right-radius: 50px;
   }
   
   aside a {
@@ -43,7 +48,7 @@ aside {
     background: #fff;
     outline: none;
     position: relative;
-    background-color: #fff;
+    background-color: #f1f1f1;
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
   }
@@ -61,7 +66,7 @@ aside {
     height: 35px;
     width: 35px;
     border-bottom-right-radius: 18px;
-    box-shadow: 0 20px 0 0 #fff;
+    box-shadow: 0 20px 0 0 #f1f1f1;
   }
   
   aside a:hover::before {
@@ -73,7 +78,7 @@ aside {
     height: 35px;
     width: 35px;
     border-top-right-radius: 18px;
-    box-shadow: 0 -20px 0 0 #fff;
+    box-shadow: 0 -20px 0 0 #f1f1f1;
   }
   
   aside p {
@@ -104,3 +109,177 @@ aside {
     top:5px;
     right:5px;
   }
+
+
+
+  .cards {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px;
+    gap: 20px;
+}
+
+.card {
+    background-color: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: calc(33.333% - 20px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.card h3 {
+    color: #0048bd;
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+.card p {
+    font-size: 14px;
+    color: #555;
+}
+
+#layout {
+    display: flex;
+    height: 100vh;
+}
+
+.main-content {
+    flex: 1; 
+    padding: 20px;
+    overflow-y: auto; 
+    margin-top: 80px;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+
+.task-form-container {
+    margin: 20px auto;
+    padding: 20px;
+    background: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+}
+
+.task-form-container h2 {
+    text-align: center;
+    color: #0048bd;
+    margin-bottom: 20px;
+}
+
+.task-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    font-size: 14px;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+textarea,
+input[type="date"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+textarea {
+    resize: none;
+}
+
+.btn-submit {
+    padding: 10px;
+    background: linear-gradient(30deg, #0048bd, #44a7fd);
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.btn-submit:hover {
+    background: #003e9f;
+}
+
+
+#content
+{
+    width: 100%;
+}
+
+
+
+.donation-table-container {
+    margin: 20px auto;
+    max-width: 800px;
+    padding: 20px;
+    background: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.donation-table-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #0048bd;
+}
+
+.donation-table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left;
+}
+
+.donation-table thead {
+    background: #0048bd;
+    color: #ffffff;
+}
+
+.donation-table thead th {
+    padding: 10px;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.donation-table tbody tr:nth-child(odd) {
+    background: #f1f1f1;
+}
+
+.donation-table tbody tr:nth-child(even) {
+    background: #ffffff;
+}
+
+.donation-table tbody tr:hover {
+    background: #f0f8ff;
+}
+
+.donation-table td,
+.donation-table th {
+    padding: 12px 15px;
+    border: 1px solid #ddd;
+    font-size: 14px;
+}
+
+.donation-table td {
+    color: #333333;
+}
