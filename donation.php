@@ -31,7 +31,7 @@
                             <li><a href="home.html">Home</a></li>
                             <li><a href="about.html">About</a></li>
                             <li><a href="donation.php">Donation</a></li>
-                            <li><a href="contactus.html">Contact</a></li>
+                            <li><a href="contactus.php">Contact</a></li>
                         </ul>
                     </div>
                 </div>
@@ -50,7 +50,7 @@
             <div class="card-grid">
                 <!-- Card 1 -->
                 <div class="card">
-                  <img src="https://via.placeholder.com/300x240" alt="Cause Image">
+                  <img src="assets/doctors-working-together-medical-research.jpg" alt="Cause Image">
                   <div class="card-content">
                     <h3>Medical</h3>
                     <p>Donate For Poor People's Treatment And Medicine.</p>

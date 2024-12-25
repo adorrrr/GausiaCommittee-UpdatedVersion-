@@ -1,16 +1,17 @@
 <?php
-error_reporting(0);
 $servername = "localhost";
 $username = "root";
 $password = "";
 $dbname = "gausiacommittee";
 
+
 $conn = mysqli_connect($servername, $username, $password, $dbname);
 
-if($conn){
 
-}
-else{
-    header("location: error404.html");
+if (!$conn) {
+    
+    error_log("Database connection failed: " . mysqli_connect_error());
+    echo json_encode(['success' => false, 'error' => 'Database connection failed.']);
     exit();
 }
+?>

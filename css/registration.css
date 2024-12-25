@@ -145,7 +145,34 @@
   .form button:hover {
     background: #276963;
   }
-  
+  .input-box.address-box {
+    margin-top: 20px;
+}
+
+.input-box.address-box label {
+    color: #333;
+    font-size: 1rem;
+}
+
+.input-box.address-box textarea {
+    position: relative;
+    width: 100%;
+    height: 100px; /* Adjust height for a multi-line textarea */
+    outline: none;
+    font-size: 1rem;
+    color: #707070;
+    margin-top: 8px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    padding: 10px 15px;
+    resize: vertical; /* Allow the user to resize the textarea vertically */
+}
+
+.input-box.address-box textarea:focus {
+    border-color: #219D80;
+    box-shadow: 0 0 5px rgba(33, 157, 128, 0.5);
+}
+
   /* Responsive */
   @media screen and (max-width: 500px) {
     .form .column {
@@ -157,33 +184,43 @@
   }
   
 
+/* Notification styles */
+.formcarry-alert {
+  position: fixed;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 15px;
+  background-color: #4caf50; /* Default to success color */
+  color: white;
+  font-size: 16px;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.5s, visibility 0.5s;
+  z-index: 9999;
+}
 
-  /* Notification styles */
-.notification {
-    position: fixed;
-    top: 20px;
-    right: 20px;
-    background-color: #219D80;
-    color: #fff;
-    padding: 15px 20px;
-    border-radius: 8px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    opacity: 0;
-    transform: translateY(-20px);
-    transition: opacity 0.3s ease, transform 0.3s ease;
-    z-index: 1000;
-  }
-  
-  .notification.show {
-    opacity: 1;
-    transform: translateY(0);
-  }
-  
-  .notification-text {
-    font-family: 'Poppins', sans-serif;
-    font-size: 1rem;
-  }
-  
+/* Success notification */
+.formcarry-alert.success {
+  background-color: #4caf50;
+}
 
+/* Error notification */
+.formcarry-alert.error {
+  background-color: #f44336;
+}
 
+/* Show notification */
+.formcarry-alert.show {
+  opacity: 1;
+  visibility: visible;
+  transition: opacity 0.5s, visibility 0.5s;
+}
 
+/* Additional styling for the notification */
+.formcarry-alert p {
+  margin: 0;
+  font-weight: bold;
+}

@@ -26,7 +26,7 @@
                         <li><a href="home.html">Home</a></li>
                         <li><a href="about.html">About</a></li>
                         <li><a href="donation.php">Donation</a></li>
-                        <li><a href="contactus.html">Contact</a></li>
+                        <li><a href="contactus.php">Contact</a></li>
                     </ul>
                 </div>
                 <!-- <a href="javascript:void(0);" class="icon" onclick="toggleMenu()">
