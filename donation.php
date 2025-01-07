@@ -117,7 +117,6 @@
               </div>
         </div>
 
-
         <!-- Modal -->
         <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
             <div class="modal-dialog" role="document">
@@ -163,8 +162,6 @@
                 </div>
             </div>
         </div>
-
-
         
 
         <div id="sponsor">
@@ -186,17 +183,17 @@
     
     <script>
       $('#exampleModal').on('show.bs.modal', function (event) {
-      var button = $(event.relatedTarget); // Button that triggered the modal
-      var recipient = button.data('bs-whatever') || ''; // Extract info from data-* attributes or default to an empty string
+      var button = $(event.relatedTarget); 
+      var recipient = button.data('bs-whatever') || ''; 
  
       var modal = $(this);
-      var title = recipient ? 'Donate for ' + recipient : 'New Entry'; // Check if recipient exists
-      modal.find('.modal-title').text(title); // Update modal title
-      modal.find('#name').val(''); // Populate the 'Name' field with recipient
-      modal.find('#email').val(''); // Clear 'Email' field
-      modal.find('#amount').val(''); // Clear 'Amount' field
-      modal.find('#product').val('Select'); // Set default value for 'Product'
-      modal.find('#location').val(''); // Clear 'Location' field
+      var title = recipient ? 'Donate for ' + recipient : 'New Entry';
+      modal.find('.modal-title').text(title); 
+      modal.find('#name').val(''); 
+      modal.find('#email').val(''); 
+      modal.find('#amount').val(''); 
+      modal.find('#product').val('Select'); 
+      modal.find('#location').val(''); 
       });
 
     </script>
@@ -217,7 +214,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['donate'])) {
     $item = mysqli_real_escape_string($conn, $_POST['item']);
     $address = mysqli_real_escape_string($conn, $_POST['address']);
 
-    $query = "INSERT INTO DONATION (fname, email, amount, item, address) 
+    $query = "INSERT INTO DONATIONS (fname, email, amount, item, address) 
               VALUES ('$fname', '$email', '$amount', '$item', '$address')";
 
     $data = mysqli_query($conn, $query);
