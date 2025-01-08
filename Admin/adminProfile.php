@@ -1,7 +1,6 @@
 <?php
 session_start();
-
-// Check if the user is not logged in or is not an admin
+include("../PHP/connection.php");
 if (!isset($_SESSION['user_id']) || $_SESSION['user_type'] !== 'admin') {
     header("Location: /gausiacommittee/login.php");
     exit();
@@ -31,6 +30,10 @@ if (!isset($_SESSION['user_id']) || $_SESSION['user_type'] !== 'admin') {
                 <i class="fa fa-star-o" aria-hidden="true"></i>
                 <b>Profile</b>
             </a>
+            <a href="donation.php">
+                <i class="fa fa-star-o" aria-hidden="true"></i>
+                <b>Donation</b>
+            </a>
             <a href="requestVolunteer.php">
                 <i class="fa fa-laptop" aria-hidden="true"></i>
                 <b>Volunteer Request</b>
@@ -56,15 +59,15 @@ if (!isset($_SESSION['user_id']) || $_SESSION['user_type'] !== 'admin') {
                 <div class="dashboard-actions">
                     <h3>Quick Actions</h3>
                     <div class="actions-grid">
-                        <a href="dashboard.html" class="action-card">
+                        <a href="dashboard.php" class="action-card">
                             <i class="fa fa-users" aria-hidden="true"></i>
-                            <p>Manage Volunteers</p>
+                            <p>Dashboard</p>
                         </a>
                         <a href="../error404.html" class="action-card">
                             <i class="fa fa-tasks" aria-hidden="true"></i>
                             <p>View Tasks</p>
                         </a>
-                        <a href="dashboard.html" class="action-card">
+                        <a href="donation.php" class="action-card">
                             <i class="dashboard.html" aria-hidden="true"></i>
                             <p>View Donations</p>
                         </a>
