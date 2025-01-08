@@ -146,6 +146,7 @@
     padding: 40px;
 
   }
+
   
   .gallery-heading {
     text-align: left;
@@ -162,18 +163,7 @@
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 20px;
   }
-  
-  .gallery-item {
-    background-color: #e0e0e0;
-    border-radius: 8px;
-    height: 200px; /* Placeholder height */
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    color: #555;
-    font-size: 1rem;
-  }
+
   .container h1 {
     font-size: 2.5rem;
     margin-bottom: 40px;

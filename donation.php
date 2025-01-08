@@ -61,7 +61,7 @@
                 </div>
                 <!-- Card 2 -->
                 <div class="card">
-                  <img src="https://via.placeholder.com/300x240" alt="Cause Image">
+                  <img src="assets/beggars-sitting-street-with-homeless-messages-please-help.jpg" alt="Cause Image">
                   <div class="card-content">
                     <h3>Homeless</h3>
                     <p>Children We Work With Need Shelter.</p>
@@ -72,7 +72,7 @@
                 </div>
                 <!-- Card 3 -->
                 <div class="card">
-                  <img src="https://via.placeholder.com/300x240" alt="Cause Image">
+                  <img src="assets/arab-people-demonstrating-together.jpg" alt="Cause Image">
                   <div class="card-content">
                     <h3>Education</h3>
                     <p>Help Underprivileged Kids Get an Education.</p>
@@ -83,7 +83,7 @@
                 </div>
                 <!-- Card 4 -->
                 <div class="card">
-                  <img src="https://via.placeholder.com/300x240" alt="Cause Image">
+                  <img src="assets/african-kid-marketplace.jpg" alt="Cause Image">
                   <div class="card-content">
                     <h3>Food</h3>
                     <p>Provide Food for Those in Need.</p><br>
@@ -94,7 +94,7 @@
                 </div>
                 <!-- Card 5 -->
                 <div class="card">
-                  <img src="https://via.placeholder.com/300x240" alt="Cause Image">
+                  <img src="assets/medium-shot-boy-drinking-water.jpg" alt="Cause Image">
                   <div class="card-content">
                     <h3>Water</h3>
                     <p>Support Clean Water Projects Worldwide.</p>
@@ -105,7 +105,7 @@
                 </div>
                 <!-- Card 6 -->
                 <div class="card">
-                  <img src="https://via.placeholder.com/300x240" alt="Cause Image">
+                  <img src="assets/man-sat-bent-his-knees-put-his-hands-his-head-base-tree-surrounded-by-water.jpg.jpg" alt="Cause Image">
                   <div class="card-content">
                     <h3>Environment</h3>
                     <p>Protect Our Planet for Future Generations.</p>
